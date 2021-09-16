@@ -9,10 +9,11 @@ import json
 from param import Param
 import sys
 import os
+from _version import __version__
 
 
 def main():
-    version = "1.4.2"
+    version = __version__
 
     parser = argparse.ArgumentParser(description='Map GWAS summary statistics to VCF/BCF')
     parser.add_argument('-v', '--version', action='version', version='%(prog)s {}'.format(version))

@@ -7,3 +7,5 @@ test/data/
 *.pyc
 .DS_Store
 env
+build/
+gwas2vcf.egg-info/
